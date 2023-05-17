@@ -41,7 +41,7 @@ import java.util.concurrent.Executor;
 //Login Page
 public class Login extends AppCompatActivity {
 
-    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://loginregister-229c2-default-rtdb.firebaseio.com/");
+    DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("YOUR FIREBASE URL");
     FirebaseAuth mAuth;
 
     ImageView abtBtn;
